@@ -1,0 +1,92 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    overflow-x: hidden;
+}
+.pimg1{
+    background-image: url(Images/road-gf1d3e6525_1920.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(Images/nature-g58febbd5b_1920.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(Images/kazuend-19SC2oaVZW0-unsplash.jpg);
+    min-height: 600px;
+}
+.pimg4{
+    background-image: url(Images/imat-bagja-gumilar-jwTvCQQJXh0-unsplash.jpg);
+    min-height: 600px;
+}
+.pimg5{
+    background-image: url(Images/trees-gd896ae893_1920.jpg);
+    min-height: 100%;
+}
+.pimg1, .pimg2, .pimg3, .pimg4,.pimg5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 8px;
+    line-height: 1;
+}
+.note{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    left: 10%;
+    text-align: center;
+    font-style: italic;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 5px 5px 10px black, 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    background: rgba(0, 0, 0, 0.5);
+}
+.textBg{
+    /* background-color: rgb(21, 21, 21,0.5); */
+    /* background-image: linear-gradient(rgba(128, 128, 128, 0),rgba(0, 0, 0, 0.556),); */
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-shadow: 5px 5px 10px black, 0 0 25px rgb(255, 255, 255), 0 0 5px rgb(0, 0, 0);
+    font-size: 80px;
+    /* border: 1px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgb(255, 255, 0) ; */
+}
+.section{
+    padding: 10px 80px;
+    text-align: center;
+}
+.section-light{
+    background-color: rgb(255, 255, 255);
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0),rgb(0, 0, 0), rgb(255, 255, 255)); */
+    color: rgb(49, 49, 49);
+}
+.section-dark{
+    background-color: rgb(49, 49, 49);
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0),rgb(0, 0, 0), rgb(255, 255, 255)); */
+    color: rgb(255, 255, 255);
+}
